@@ -1,0 +1,1 @@
+NEXT_CONTACT_READY=true

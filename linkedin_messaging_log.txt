@@ -1,0 +1,77 @@
+2026-03-16 10:32:04 - Prepared contact #0: Gabriel Hanono (gabriel@ukw.com.mx)
+2026-03-16 10:32:41 - Script triggered - fetching next contact
+2026-03-16 10:32:41 - Prepared contact #0: Gabriel Hanono (gabriel@ukw.com.mx)
+2026-03-16 10:32:52 - Script triggered - fetching next contact
+2026-03-16 10:32:52 - Prepared contact #3: Nicolas Giraldo Carvajal (nicolas@trendytex.com.co)
+2026-03-16 10:33:55 - Script triggered - fetching next contact
+2026-03-16 10:33:56 - Prepared contact #3: Nicolas Giraldo Carvajal (nicolas@trendytex.com.co)
+2026-03-16 10:35:28 - Script triggered - fetching next contact
+2026-03-16 10:35:28 - Prepared contact #3: Nicolas Giraldo Carvajal (nicolas@trendytex.com.co)
+2026-03-16 16:38:46 - Script triggered - fetching next contact
+2026-03-16 16:38:47 - Prepared contact #4: Emilio Sanchez Beltran (emilio@welton.mx)
+2026-03-16 16:50:28 - Script triggered - fetching next contact
+2026-03-16 16:50:29 - Prepared contact #0: Gabriel Hanono (gabriel@ukw.com.mx)
+2026-03-16 16:51:24 - Script triggered - fetching next contact
+2026-03-16 16:51:24 - Prepared contact #0: Gabriel Hanono (gabriel@ukw.com.mx)
+2026-03-16 16:54:25 - Script triggered - fetching next contact
+2026-03-16 16:54:25 - Prepared contact #0: Gabriel Hanono (gabriel@ukw.com.mx)
+2026-03-16 16:54:31 - Script triggered - fetching next contact
+2026-03-16 16:54:32 - Prepared contact #1: Alex Fernandez (alex@levenactive.com)
+2026-03-16 16:55:10 - Script triggered - fetching next contact
+2026-03-16 16:55:11 - Prepared contact #2: Jorge Oscar Guerrero (joguerrero@jgleathergoods.com)
+2026-03-16 16:57:04 - Script triggered - fetching next contact
+2026-03-16 16:57:05 - Prepared contact #3: Nicolas Giraldo Carvajal (nicolas@trendytex.com.co)
+2026-03-16 18:49:43 - Script triggered - fetching next contact
+2026-03-16 18:49:43 - Prepared contact #4: Emilio Sanchez Beltran (emilio@welton.mx)
+2026-03-17 12:07:45 - Script triggered - fetching next contact
+2026-03-17 12:07:45 - Prepared contact #5: Adriana Barri Rosas (adriana@rebozocopenhagen.dk)
+2026-03-17 15:09:05 - Script triggered - fetching next contact
+2026-03-17 15:09:06 - Prepared contact #6: Santiago Guerrero Quintero (santiagoguerrero@batista.com.co)
+2026-03-17 15:10:33 - Script triggered - fetching next contact
+2026-03-17 15:10:34 - Prepared contact #7: Carlos Balas Mercado (cbalas@grupobaltex.com)
+2026-03-17 15:11:17 - Script triggered - fetching next contact
+2026-03-17 15:11:18 - Prepared contact #8: Erica Elias (erica.elias@cocoaulait.com)
+2026-03-18 08:16:03 - Script triggered - fetching next contact
+2026-03-18 08:16:04 - Prepared contact #9: Manuel Castro (manuel@pinkrevolver.com.mx)
+2026-03-18 08:20:04 - Script triggered - fetching next contact
+2026-03-18 08:20:05 - Prepared contact #10: Eduardo Martinez Gonzalez (emg@mundoterra.com)
+2026-03-18 08:23:58 - Script triggered - fetching next contact
+2026-03-18 08:23:58 - Prepared contact #11: Juanita Picciotto (juanita@tejidoszephir.co)
+2026-03-19 08:23:44 - Script triggered - fetching next contact
+2026-03-19 08:23:45 - Prepared contact #0: Gabriel Hanono (gabriel@ukw.com.mx)
+2026-03-19 08:24:44 - Script triggered - fetching next contact
+2026-03-19 08:24:45 - Prepared contact #12: Valeria Bouroncle (valeria.bouroncle@vapretail.com)
+2026-03-19 09:44:17 - Script triggered - fetching next contact
+2026-03-19 09:44:17 - Prepared contact #13: Sebastian Tonda (sebastian.tonda@igualdad.io)
+2026-03-19 09:47:54 - Script triggered - fetching next contact
+2026-03-19 09:47:55 - Prepared contact #13: Sebastian Tonda (sebastian.tonda@igualdad.io)
+2026-03-19 09:48:03 - Script triggered - fetching next contact
+2026-03-19 09:48:03 - Prepared contact #14: Nicole Rabling (nicole@momentobarcelona.com)
+2026-03-19 14:15:16 - Script triggered - fetching next contact
+2026-03-19 14:15:16 - Prepared contact #15: Robert Hirsh (robert@thesilverdeer.com)
+2026-03-19 14:19:26 - Script triggered - fetching next contact
+2026-03-19 14:19:26 - Prepared contact #15: Robert Hirsh (robert@thesilverdeer.com)
+2026-03-19 14:20:23 - Script triggered - fetching next contact
+2026-03-19 14:20:24 - Prepared contact #16: Michael Miklos (mmiklos@marsol.com.mx)
+2026-03-19 14:26:11 - Script triggered - fetching next contact
+2026-03-19 14:26:11 - Prepared contact #16: Michael Miklos (mmiklos@marsol.com.mx)
+2026-03-19 14:26:23 - Script triggered - fetching next contact
+2026-03-19 14:26:23 - Prepared contact #17: Carolina Caicedo Russi (carolina@colombianuniforms.com)
+2026-03-19 15:48:00 - Script triggered - fetching next contact
+2026-03-19 15:48:00 - Prepared contact #18: Adriana Ramirez Alvarado (paola@alturasiete.com)
+2026-03-19 15:50:09 - Script triggered - fetching next contact
+2026-03-19 15:50:09 - Prepared contact #18: Adriana Ramirez Alvarado (paola@alturasiete.com)
+2026-03-19 15:50:17 - Script triggered - fetching next contact
+2026-03-19 15:50:17 - Prepared contact #18: Adriana Ramirez Alvarado (paola@alturasiete.com)
+2026-03-19 15:50:23 - Script triggered - fetching next contact
+2026-03-19 15:50:23 - Prepared contact #18: Adriana Ramirez Alvarado (paola@alturasiete.com)
+2026-03-19 15:50:58 - Script triggered - fetching next contact
+2026-03-19 15:50:59 - Prepared contact #26: Jorge Alberto Diaz Romero (jromero@fajasromanza.com)
+2026-03-19 15:51:51 - Script triggered - fetching next contact
+2026-03-19 15:51:51 - Prepared contact #27: Sebastian Eusse (seusse@articur.com)
+2026-03-19 16:09:35 - Script triggered - fetching next contact
+2026-03-19 16:09:36 - Prepared contact #28: Juan David (juan.david@silidubai.com)
+2026-03-19 17:29:08 - Script triggered - fetching next contact
+2026-03-19 17:29:09 - Prepared contact #28: Juan David (juan.david@silidubai.com)
+2026-03-19 19:26:52 - Script triggered - fetching next contact
+2026-03-19 19:26:53 - Prepared contact #28: Juan David (juan.david@silidubai.com)

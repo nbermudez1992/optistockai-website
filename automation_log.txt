@@ -1,0 +1,22 @@
+2026-03-19 14:18:52 - Automation started
+2026-03-19 14:18:52 - Sleeping for 88 minutes until next run
+2026-03-19 14:20:04 - Automation started
+2026-03-19 14:20:04 - Sleeping for 109 minutes until next run
+2026-03-19 16:09:35 - Running linkedin_messaging.py...
+NEXT_CONTACT_READY=true
+2026-03-19 16:09:36 - Script completed successfully
+2026-03-19 16:09:36 - Sending Telegram notification for Juan David
+{"ok":false,"error_code":404,"description":"Not Found"}2026-03-19 16:09:36 - Notification sent - processing contact
+2026-03-19 16:09:36 - Sleeping for 79 minutes until next run
+2026-03-19 17:29:08 - Running linkedin_messaging.py...
+NEXT_CONTACT_READY=true
+2026-03-19 17:29:09 - Script completed successfully
+2026-03-19 17:29:09 - Sending Telegram notification for Juan David
+{"ok":false,"error_code":404,"description":"Not Found"}2026-03-19 17:29:09 - Notification sent - processing contact
+2026-03-19 17:29:09 - Sleeping for 117 minutes until next run
+2026-03-19 19:26:52 - Running linkedin_messaging.py...
+NEXT_CONTACT_READY=true
+2026-03-19 19:26:53 - Script completed successfully
+2026-03-19 19:26:53 - Sending Telegram notification for Juan David
+{"ok":false,"error_code":404,"description":"Not Found"}2026-03-19 19:26:53 - Notification sent - processing contact
+2026-03-19 19:26:53 - Sleeping for 92 minutes until next run

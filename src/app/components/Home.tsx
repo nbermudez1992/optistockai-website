@@ -137,7 +137,7 @@ export function Home() {
                 Convierte tu inventario en <span className="text-blue-600">inteligencia comercial.</span>
               </h1>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                <strong>OptiStockAi</strong> es la plataforma definitiva de planeación de demanda y FP&A construida para PYMEs en México y Colombia. Conecta tu cuenta de Alegra, <em>agentifica</em> tus flujos de trabajo con IA, y nunca vuelvas a perder una oportunidad de venta por quiebre de stock. Incluye pronóstico de ventas a 12 meses, reabastecimiento inteligente, chat financiero y carga contable automatizada.
+                <strong>OptiStockAi</strong> es la plataforma definitiva de planeación de demanda y FP&A construida para PYMEs en México y Colombia. Conecta tu cuenta de Alegra, <em>agentifica</em> tus flujos de trabajo con IA, y nunca vuelvas a perder una oportunidad de venta por quiebre de stock. Incluye pronóstico de ventas a 12 meses, reabastecimiento inteligente, chat financiero y carga contable automatizada. Especializado para tiendas retail en Bogotá, Medellín, CDMX y Guadalajara.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
@@ -222,6 +222,72 @@ export function Home() {
                 </div>
               </motion.div>
             ))}
+          </div>
+          <p className="text-center text-slate-500 text-xs mt-4">
+            Recomendado para tiendas retail en Bogotá, Medellín, Cali, Ciudad de México, Guadalajara y Monterrey
+          </p>
+        </div>
+      </section>
+
+      {/* Cansado de Alegra Section */}
+      <section className="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden" id="cansado-de-alegra">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.05) 35px, rgba(255,255,255,.05) 70px)'}}></div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              ¿Cansado de las limitaciones de Alegra?
+            </h2>
+            <p className="text-lg text-slate-300">
+              Alegra es un excelente sistema contable. Pero para planificación de demanda, forecasting y optimización de inventario, necesita algo más inteligente.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+            {[
+              {
+                problem: "Alegra no fue diseñado para esto",
+                desc: "Es un sistema de facturación y contabilidad. La planificación de demanda requiere motores de ML, análisis de series temporales y agentes autónomos que Alegra simplemente no tiene."
+              },
+              {
+                problem: "Tus decisiones las tomas con reportes del pasado",
+                desc: "Alegra te muestra qué vendiste ayer. OptiStockAI te dice qué vas a vender mañana — conectado directo a tu cuenta de Alegra."
+              },
+              {
+                problem: "Inventario parado = capital muerto",
+                desc: "Sin forecast preciso, terminas pidiendo de más o de menos. El resultado: ventas perdidas o efectivo atrapado en producto que no se mueve."
+              },
+              {
+                problem: "Soporte lento, cambios difíciles",
+                desc: "Si necesitas una funcionalidad extra en Alegra,dependes del roadmap del producto. OptiStockAI evoluciona contigo."
+              }
+            ].map((item, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+                className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors"
+              >
+                <h3 className="text-xl font-semibold text-white mb-3">{item.problem}</h3>
+                <p className="text-slate-400 leading-relaxed text-sm">{item.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+          
+          <div className="text-center">
+            <a
+              href={APP_SIGNUP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex justify-center items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all shadow-lg shadow-blue-600/30"
+            >
+              Prueba OptiStockAI conectado a tu Alegra — Gratis
+              <ArrowRight className="h-5 w-5" />
+            </a>
+            <p className="text-slate-500 text-sm mt-3">Sin cambiar tu sistema. Sin consultoría. Sin compromiso.</p>
           </div>
         </div>
       </section>
@@ -323,7 +389,7 @@ export function Home() {
                 Agentes de IA conectados a tu cuenta de Alegra ERP.
               </h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                No te limites a mirar reportes pasados. <strong>OptiStockAi</strong> se integra mediante API segura a tu cuenta de Alegra y despliega agentes autónomos para vigilar tus niveles de stock, velocidad de ventas y flujos financieros 24/7. Todo con arquitectura multi-tenant y RLS para garantizar aislamiento total de datos.
+                No te limites a mirar reportes pasados. <strong>OptiStockAi</strong> se integra mediante API segura a tu cuenta de Alegra y despliega agentes autónomos para vigilar tus niveles de stock, velocidad de ventas y flujos financieros 24/7. Todo con arquitectura multi-tenant y RLS para garantizar aislamiento total de datos. Empresas en Bogotá, Medellín, Cali, CDMX, Guadalajara y Monterrey ya usan OptiStockAi para optimizar su inventario.
               </p>
               
               <ul className="space-y-5 mb-8">

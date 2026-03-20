@@ -237,7 +237,7 @@ export function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              ¿Cansado de las limitaciones de Alegra?
+              ¿Cansado de Alegra? Hay una alternativa inteligente
             </h2>
             <p className="text-lg text-slate-300">
               Alegra es un excelente sistema contable. Pero para planificación de demanda, forecasting y optimización de inventario, necesita algo más inteligente.

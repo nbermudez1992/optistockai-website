@@ -1,0 +1,27 @@
+# OptiStockAi Landing Page - robots.txt
+# Allow all crawlers (Google, Bing, ChatGPT, Perplexity, etc.)
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://optistockai.site/sitemap.xml
+
+# AI-specific crawler allowances
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

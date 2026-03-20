@@ -17,7 +17,7 @@ import {
 
 // Formspree form ID — configure the recipient email at https://formspree.io
 // The actual destination email is NEVER exposed in client code.
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/mnjgrqwe";
 
 export function Contact() {
   const [formData, setFormData] = useState({

@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Link } from "react-router";
+import { Helmet } from "react-helmet-async";
 import { SEO } from "./SEO";
 import { APP_SIGNUP_URL } from "../config";
 import { 
@@ -67,6 +68,31 @@ export function Home() {
     ]
   };
 
+  // HowTo schema for "how to plan demand with AI" long-tail queries
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Cómo planificar la demanda de tu tienda retail con IA en 3 pasos",
+    "description": "Guía paso a paso para零售商 reducir quiebres de stock y inventario parado usando OptiStockAI conectado a Alegra ERP.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Paso 1: Conecta tu cuenta de Alegra",
+        "text": "Inicia sesión en OptiStockAI con tu cuenta de Alegra. La integración API extrae automáticamente tu historial de ventas, niveles de inventario y catálogo de productos en menos de 15 minutos."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Paso 2: Deja que la IA analice tus patrones de venta",
+        "text": "OptiStockAI usa modelos de machine learning (AutoGluon) para analizar 12 meses de datos de Alegra y generar un pronóstico de demanda a 12 meses por SKU, bodega y categoría."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Paso 3: Recibe recomendaciones de reabastecimiento",
+        "text": "Los agentes de IA calculan la cantidad óptima de reorden para cada producto, considerando lead time de proveedores, demanda proyectada y stock actual. Recibe recomendaciones diarias directamente en tu dashboard."
+      }
+    ]
+  };
+
   // App modules directly from the OptistockAI sidebar
   const appModules = [
     {
@@ -117,6 +143,11 @@ export function Home() {
         canonical="/"
         schemaMarkup={softwareSchema}
       />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(howToSchema)}
+        </script>
+      </Helmet>
 
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-white pt-20 pb-32 lg:pt-32 lg:pb-40">

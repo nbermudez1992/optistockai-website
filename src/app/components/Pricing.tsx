@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Link } from "react-router";
+import { Helmet } from "react-helmet-async";
 import { SEO } from "./SEO";
 import { APP_SIGNUP_URL } from "../config";
 import { 
@@ -52,6 +53,53 @@ export function Pricing() {
           "billingDuration": "P1M"
         },
         "description": "Todo del Plan Básico con SKUs ilimitados, asistente financiero IA, carga contable inteligente y soporte prioritario."
+      }
+    ]
+  };
+
+  const pricingFAQSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Puedo cambiar de plan en cualquier momento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí, puedes escalar de Básico a Pro inmediatamente desde tu panel de facturación gestionado por Stripe. El cambio se prorratea automáticamente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué sucede al terminar la prueba gratuita?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tu acceso se pausa hasta que selections un plan. No se cobra automáticamente ninguna tarjeta. Tus datos se conservan durante 30 días."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Necesito tener Alegra ERP para usar OptiStockAi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Actualmente, la integración principal de datos es con Alegra ERP. Estamos trabajando para soportar otros ERPs populares en LatAm próximamente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Mis datos están seguros?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutamente. Usamos Row Level Security (RLS) a nivel de PostgreSQL para aislar completamente los datos de cada organización. Toda la comunicación se cifra con TLS y la autenticación es gestionada por Supabase GoTrue."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuántos usuarios de equipo puedo agregar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ambos planes incluyen miembros de equipo ilimitados. Los Admins pueden invitar y asignar roles (Admin, Manager, Viewer) desde la configuración de la organización."
+        }
       }
     ]
   };
@@ -132,6 +180,11 @@ export function Pricing() {
         canonical="/pricing"
         schemaMarkup={pricingSchema}
       />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(pricingFAQSchema)}
+        </script>
+      </Helmet>
 
       {/* Header */}
       <section className="bg-slate-50 py-20 border-b border-slate-200">

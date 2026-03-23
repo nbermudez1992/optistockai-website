@@ -50,6 +50,71 @@ export function SEO({ title, description, canonical, keywords, ogImage, schemaMa
     "knowsAbout": ["Demand Planning", "Financial Planning and Analysis", "AI Agents", "Alegra ERP Integration", "Inventory Management"]
   };
 
+  // BreadcrumbList schema for inner pages
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": baseUrl
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Producto",
+        "item": `${baseUrl}/product`
+      }
+    ]
+  };
+
+  // LocalBusiness schema for geographic SEO
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "OptiStockAi",
+    "description": "Plataforma de planeación de demanda con IA para tiendas retail en Colombia y México. Pronóstico de ventas ML, agentes de reabastecimiento y chat financiero.",
+    "url": baseUrl,
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "50",
+      "priceCurrency": "USD",
+      "description": "Desde $50 USD/mes — Plan Basic con 300 SKUs"
+    },
+    "areaServed": [
+      {
+        "@type": "State",
+        "name": "Ciudad de México",
+        "containedIn": "México"
+      },
+      {
+        "@type": "State",
+        "name": "Bogotá",
+        "containedIn": "Colombia"
+      },
+      {
+        "@type": "State",
+        "name": "Medellín",
+        "containedIn": "Colombia"
+      },
+      {
+        "@type": "State",
+        "name": "Guadalajara",
+        "containedIn": "México"
+      },
+      {
+        "@type": "State",
+        "name": "Monterrey",
+        "containedIn": "México"
+      }
+    ],
+    "serviceType": ["Demand Planning", "Inventory Optimization", "AI Sales Forecasting", "Financial Analytics"]
+  };
+
   return (
     <Helmet>
       {/* Basic HTML Meta Tags */}
@@ -86,7 +151,13 @@ export function SEO({ title, description, canonical, keywords, ogImage, schemaMa
       <script type="application/ld+json">
         {JSON.stringify(organizationSchema)}
       </script>
-      
+      <script type="application/ld+json">
+        {JSON.stringify(breadcrumbSchema)}
+      </script>
+      <script type="application/ld+json">
+        {JSON.stringify(localBusinessSchema)}
+      </script>
+
       {schemaMarkup && (
         <script type="application/ld+json">
           {JSON.stringify(schemaMarkup)}

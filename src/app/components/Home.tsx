@@ -1,6 +1,5 @@
 import { motion } from "motion/react";
 import { Link } from "react-router";
-import { Helmet } from "react-helmet-async";
 import { SEO } from "./SEO";
 import { APP_SIGNUP_URL } from "../config";
 import { 
@@ -142,12 +141,8 @@ export function Home() {
         keywords="software planeacion demanda, ia para pymes, inteligencia artificial inventarios, integracion alegra erp, fp&a software, OptiStockAi, agentes de IA logistica, pronóstico ventas machine learning, asistente financiero IA"
         canonical="/"
         schemaMarkup={softwareSchema}
+        howToSchema={howToSchema}
       />
-      <Helmet>
-        <script type="application/ld+json">
-          {JSON.stringify(howToSchema)}
-        </script>
-      </Helmet>
 
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-white pt-20 pb-32 lg:pt-32 lg:pb-40">

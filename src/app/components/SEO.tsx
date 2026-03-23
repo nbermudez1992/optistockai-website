@@ -7,9 +7,10 @@ interface SEOProps {
   keywords?: string;
   ogImage?: string;
   schemaMarkup?: Record<string, any>;
+  howToSchema?: Record<string, any>;
 }
 
-export function SEO({ title, description, canonical, keywords, ogImage, schemaMarkup }: SEOProps) {
+export function SEO({ title, description, canonical, keywords, ogImage, schemaMarkup, howToSchema }: SEOProps) {
   const siteName = "OptiStockAi";
   const fullTitle = `${title} | ${siteName}`;
   const defaultImage = "https://images.unsplash.com/photo-1762279389083-abf71f22d338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhYnN0cmFjdCUyMGRhdGElMjBhbmFseXRpY3MlMjBibHVlfGVufDF8fHx8MTc3Mzk4NTU1Nnww&ixlib=rb-4.1.0&q=80&w=1080";
@@ -161,6 +162,12 @@ export function SEO({ title, description, canonical, keywords, ogImage, schemaMa
       {schemaMarkup && (
         <script type="application/ld+json">
           {JSON.stringify(schemaMarkup)}
+        </script>
+      )}
+
+      {howToSchema && (
+        <script type="application/ld+json">
+          {JSON.stringify(howToSchema)}
         </script>
       )}
     </Helmet>
